@@ -1,48 +1,106 @@
 🚀 ResuMind – AI Powered Resume Analyzer
-Smart, Fast & Accurate Resume Insights Powered by AI
 
-ResuMind is an intelligent resume-analysis platform that helps users instantly evaluate and improve their resumes using advanced AI techniques. Built with a modern front-end tech stack and powered by Puter.com’s AI + cloud functions, ResuMind delivers real-time scoring, actionable suggestions, and job-role-based optimization.
+Smart. Fast. Accurate.
+AI-powered resume insights to optimize your job applications instantly.
 
-🎯 Features
+🌐 Live App: https://ai-resume-analyzer-lovat-omega.vercel.app/
 
-⚡ Instant AI-Based Resume Analysis
-Upload your resume and get detailed insights within seconds.
+📌 Overview
 
-🧠 Context-Aware Recommendations
-Suggestions based on job descriptions, keywords, ATS alignment, and formatting rules.
+ResuMind is an intelligent resume analysis platform that evaluates resumes using AI and provides:
 
-🎨 Beautiful & Responsive UI
-Built with Tailwind CSS for clean, modern, adaptive design.
+📊 Resume scoring
+🎯 ATS compatibility insights
+🧠 Context-aware suggestions
+📄 Keyword optimization guidance
+⚡ Real-time feedback
 
-🗺️ Smooth Navigation
-Using React Router v7 for seamless routing.
+Built using a modern React + TypeScript architecture and powered by Puter.com AI + Cloud Functions, the platform ensures fast, scalable, and secure resume analysis.
 
-🔐 Local & Cloud File Support
-Thanks to Puter.com + Puter.js, uploads and AI requests are effortless and secure.
+✨ Key Features
+⚡ Instant AI Resume Analysis
 
-🧩 State Management Done Right
-Lightning-fast global state using Zustand.
+Upload your resume and receive structured feedback within seconds.
 
-🚀 Super-Fast Dev Environment
-Powered by Vite and TypeScript.
+🧠 Context-Aware Optimization
+
+Smart suggestions based on:
+Job descriptions
+Industry keywords
+ATS scoring logic
+Formatting best practices
+
+🎨 Modern Responsive UI
+Built using Tailwind CSS
+Fully responsive design
+Clean and intuitive user experience
+🗺️ Smooth Client-Side Routing
+Powered by React Router v7 for seamless navigation.
+🔐 Secure File Handling
+Uses Puter.js for secure cloud + local file processing.
+🧩 Efficient State Management
+Zustand ensures lightweight, scalable global state handling.
+
+⚡ Optimized Development Experience
+
+Vite for blazing fast builds
+TypeScript for type safety
+Modular project structure
 
 🛠️ Tech Stack
-Frontend
 
-⚛️ React
+🎨 Frontend
 
-🧭 React Router v7
+React
+React Router v7
+TypeScript
+Tailwind CSS
+Zustand
+Vite
 
-🎨 Tailwind CSS
+☁️ Backend / AI Services
 
-🟦 TypeScript
+Puter.com API
+Puter.js (AI Requests + File Handling)
 
-⚡ Vite
+🏗️ Architecture Overview
+User Uploads Resume
+        ↓
+File handled via Puter.js
+        ↓
+Resume sent to Puter AI Engine
+        ↓
+AI processes content
+        ↓
+Structured JSON response returned
+        ↓
+Frontend renders score + insights
 
-🐻 Zustand (State Management)
+📂 Project Structure
+src/
+│
+├── components/
+├── pages/
+├── store/          (Zustand state)
+├── services/       (AI + API calls)
+├── utils/
+└── main.tsx
 
-Backend / AI Services
+⚙️ Installation & Setup
+1️⃣ Clone the Repository
+git clone https://github.com/YOUR_USERNAME/ai-resume-analyzer.git
+cd ai-resume-analyzer
+2️⃣ Install Dependencies
+npm install
+3️⃣ Run Development Server
+npm run dev
+4️⃣ Build for Production
+npm run build
+🔐 Environment Variables
 
-☁️ Puter.com API
+🚀 Deployment
+Deployed on Vercel for seamless CI/CD.
 
-🧩 Puter.js (AI Requests, File Handling)
+To deploy manually:
+
+vercel deploy
